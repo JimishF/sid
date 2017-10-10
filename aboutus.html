@@ -108,7 +108,9 @@
 
 
  <script> 
-  $("#header").load("header.html"); 
+  $("#header").load("header.html",function() {
+    $("#li-about").addClass('active')
+  }); 
   $("#footer").load("footer.html"); 
  
 </script>

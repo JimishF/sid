@@ -33,9 +33,30 @@
 }
 
 /* custom code */
+  
 .s-box{
   margin-top: 20px;
   border-radius: 5px;
   border: 1px solid #CCC;
   padding: 1em;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  background: #ffffff;
+  border-top: 0.0625em solid lightgrey;
+  bottom: 0;
+  color: #000000;
+  height: 5em;
+  z-index: 1000;
+}
+footer p {
+  float: left;
+  text-align: center;
+  width: 100%;
+  padding: 1.25em;
+}
+.navbar {
+    border-radius: 0px!important;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
 }
